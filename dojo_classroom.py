@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 DOJO ASCENSION v4.0 — The Outlier Qualification Classroom
-A terminal RPG that teaches Python, Git, and JSON for Outlier AI contributor qualification.
-Each "mission" is a VSCode-aligned tutorial lesson with a real coding challenge.
+A terminal RPG that teaches Python, Git, and JSON for SolarPunk contributor qualification.
+Each "quest" is a VSCode-aligned tutorial lesson with a real coding challenge.
 """
 
 import sys
@@ -69,7 +69,7 @@ class Player:
     def rank(self):
         ranks = [
             (0, "Initiate"), (50, "Apprentice"), (150, "Practitioner"),
-            (300, "Adept"), (600, "Expert"), (1000, "Outlier Candidate")
+            (300, "Adept"), (600, "Expert"), (1000, "Dojo Candidate")
         ]
         current = "Initiate"
         for threshold, title in ranks:
@@ -133,7 +133,7 @@ CURRICULUM = {
     7: {"title": "APIs & HTTP",               "skill": "Python: requests + JSON APIs",  "outlier_tag": "Python+JSON"},
     8: {"title": "File I/O & JSON Files",     "skill": "Python: File Handling + JSON",  "outlier_tag": "Python+JSON"},
     9: {"title": "OOP — Classes",             "skill": "Python: OOP & Classes",         "outlier_tag": "Python"},
-   10: {"title": "Code Review Mastery",       "skill": "Outlier: Review & Feedback",    "outlier_tag": "Outlier"},
+   10: {"title": "Code Review Mastery",       "skill": "ModernTech: Review & Feedback",    "outlier_tag": "ModernTech"},
 }
 
 # ─────────────────────────────────────────────
@@ -181,7 +181,7 @@ def mission_1_system_grounding(player):
     header("MISSION 1: SYSTEM GROUNDING", Fore.YELLOW)
     lesson_box("""
 What is Python?
-Python is the #1 language for AI training work (like Outlier).
+Python is the #1 language for AI training work.
 It reads almost like English and can do almost anything.
 
 VSCode Quick Start:
@@ -433,7 +433,7 @@ def mission_5_git_basics(player):
     header("MISSION 5: GIT — VERSION CONTROL", Fore.RED)
     lesson_box("""
 Git is how professional developers track code changes.
-Outlier's Git skill assessment tests these exact commands.
+ModernTech's Git skill assessment tests these exact commands.
 
 CORE WORKFLOW:
   git init              # Start a new repo
@@ -448,7 +448,7 @@ REMOTE (GitHub):
   git push origin main  # Upload your commits
   git pull              # Download latest changes
 
-IMPORTANT for Outlier:
+IMPORTANT for ModernTech:
   Good commit: "Add JSON parser for user profiles"
   Bad commit:  "fix stuff" or "update"
   Use present tense: "Add feature" not "Added feature"
@@ -506,7 +506,7 @@ def mission_6_git_branching(player):
     header("MISSION 6: GIT — BRANCHING & MERGING", Fore.RED)
     lesson_box("""
 Branches let you work on features without breaking main code.
-This is the #1 thing Outlier tests in Git skill assessments.
+This is the #1 thing ModernTech tests in Git skill assessments.
 
 BRANCH COMMANDS:
   git branch                  # List all branches
@@ -519,7 +519,7 @@ MERGING:
   git checkout main           # Switch back to main
   git merge feature-x         # Merge feature into main
 
-REBASING (Outlier loves this question):
+REBASING (ModernTech loves this question):
   git rebase main             # Reapply commits on top of main
   # Rebase = cleaner history; merge = preserves full timeline
 
@@ -633,7 +633,7 @@ def mission_8_file_io(player):
     header("MISSION 8: FILE I/O & JSON FILES", Fore.MAGENTA)
     lesson_box("""
 File I/O is how you persist data across program runs.
-JSON is the standard format for Outlier task data.
+JSON is the standard format for ModernTech task data.
 
 READING:
   with open("data.txt", "r") as f:
@@ -693,7 +693,7 @@ def mission_9_oop(player):
     header("MISSION 9: OOP — CLASSES & OBJECTS", Fore.CYAN)
     lesson_box("""
 Object-Oriented Programming organizes code into classes.
-Outlier back-end dev assessments HEAVILY test OOP.
+ModernTech back-end dev assessments HEAVILY test OOP.
 
   class Player:
       def __init__(self, name):    # Constructor
@@ -716,7 +716,7 @@ INHERITANCE:
           super().__init__(name)
           self.specialty = specialty
 
-SOLID Principles (Outlier code review favorites):
+SOLID Principles (ModernTech code review favorites):
   S — Single Responsibility
   O — Open/Closed
   L — Liskov Substitution
@@ -751,7 +751,7 @@ SOLID Principles (Outlier code review favorites):
 def mission_10_code_review(player):
     header("MISSION 10: CODE REVIEW MASTERY", Fore.YELLOW)
     lesson_box("""
-This IS your job at Outlier. You review AI-generated code
+This IS your job at ModernTech. You review AI-generated code
 and provide structured, professional feedback.
 
 THE OUTLIER REVIEW FRAMEWORK:
@@ -845,7 +845,7 @@ MISSIONS = {
 # ─────────────────────────────────────────────
 def show_status(player):
     clear_screen()
-    header("DOJO ASCENSION — OUTLIER PREP DASHBOARD", Fore.CYAN)
+    header("DOJO ASCENSION — ModernTech PREP DASHBOARD", Fore.CYAN)
     print(f"\n  {Fore.WHITE}Player : {Style.BRIGHT}{player.name}{Style.RESET_ALL}")
     print(f"  {Fore.WHITE}Rank   : {Fore.YELLOW}{player.rank}{Style.RESET_ALL}")
     print(f"  {Fore.WHITE}Honor  : {Fore.YELLOW}{player.honor} pts{Style.RESET_ALL}")
@@ -941,14 +941,14 @@ def run_mission(player, mission_num):
         print(f"\n  {Fore.CYAN}{Style.BRIGHT}🎖 LEVEL UP! Now at Level {player.level}{Style.RESET_ALL}")
     print(f"\n  {Fore.YELLOW}Mission complete! +{honor_gained} honor{Style.RESET_ALL}")
     next_info = CURRICULUM.get(player.level, {})
-    print(f"  {Fore.CYAN}Next: {next_info.get('title', 'All missions complete — Outlier Candidate!')}{Style.RESET_ALL}")
+    print(f"  {Fore.CYAN}Next: {next_info.get('title', 'All missions complete — ModernTech Candidate!')}{Style.RESET_ALL}")
     wait()
 
 
 def game_loop():
     clear_screen()
     print_slow(f"{Fore.CYAN}{Style.BRIGHT}  DOJO ASCENSION v4.0{Style.RESET_ALL}", 0.03)
-    print_slow(f"{Fore.WHITE}  Outlier AI Qualification Training System{Style.RESET_ALL}", 0.02)
+    print_slow(f"{Fore.WHITE}  ModernTech AI Qualification Training System{Style.RESET_ALL}", 0.02)
     print_slow(f"{Fore.YELLOW}  Python | Git | JSON | Code Review{Style.RESET_ALL}", 0.02)
     print()
 
