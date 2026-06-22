@@ -1,0 +1,17 @@
+{
+  "id": "git_basics",
+  "number": 5,
+  "title": "Git — Journalistic Integrity",
+  "skill": "git",
+  "outliertag": "Git",
+  "philosophy": "Social activism requires truth. Git is our immutable journalistic ledger. It holds systems accountable by tracking exactly who changed what, and when.",
+  "economics": "The Baltic states, particularly Estonia, leverage cryptographic ledgers to ensure transparent e-governance. Git operates on a similar Merkle-tree foundation.",
+  "techconcept": "Git commits are snapshots of your project history. Before committing, you stage changes so Git knows which edits to include in the next snapshot.",
+  "lesson": "Staging lets you control exactly which changes become part of a commit. This is like deciding which facts and sources make it into a published article. Careful commits tell a clear story about how a codebase evolved.",
+  "challenge": "What command stages all your current changes in Git? (Hint: git ___ .)",
+  "hint": "You add files to the staging area.",
+  "answer": "git add .",
+  "answertype": "exact",
+  "honorreward": 20,
+  "bonusfirsttry": 5
+}

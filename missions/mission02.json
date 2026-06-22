@@ -1,0 +1,17 @@
+{
+  "id": "python_variables",
+  "number": 2,
+  "title": "Variables & Data Lineage",
+  "skill": "python",
+  "outliertag": "Python",
+  "philosophy": "Genealogy teaches us that tracing lineage reveals identity. A variable is a named vessel; its lineage of data determines its behavior in the ecosystem.",
+  "economics": "Micro-economics dictates that resources are scarce. Variables allocate memory—our most precious digital resource. Good naming prevents systemic inflation.",
+  "techconcept": "In Python, we assign values using the '=' operator. For example: water_supply = 100.",
+  "lesson": "Variables attach names to values so you can reuse and transform them later. The assignment operator '=' binds a name on the left to a value on the right, and good names make your code readable like a story instead of a puzzle.",
+  "challenge": "Write exactly this: assign the integer 42 to a variable named 'seed'.",
+  "hint": "Use the pattern: name = value",
+  "answer": "seed = 42",
+  "answertype": "exact",
+  "honorreward": 15,
+  "bonusfirsttry": 5
+}

@@ -1,0 +1,17 @@
+{
+  "id": "git_branching",
+  "number": 6,
+  "title": "Git — Branching & Merging",
+  "skill": "git",
+  "outliertag": "Git",
+  "philosophy": "Wing Chun teaches us to deflect and redirect force rather than opposing it. A Git branch allows you to divert the flow of time, safely experimenting with alternate 'genealogical' lineages of code before merging them back to the main trunk.",
+  "economics": "In macro-economics, this is Research & Development (R&D). You isolate risk in a separate sandbox (branch) so experimental failures do not crash the primary market (main branch).",
+  "techconcept": "Branches let you isolate work-in-progress. The command `git checkout -b <name>` both creates a new branch and switches to it.",
+  "lesson": "Using branches, you can try bold ideas without endangering main. When the work is ready, you merge the branch back, preserving the experimental history. This encourages exploration while protecting stability.",
+  "challenge": "What command would you use to create and switch to a new branch named 'feature'?",
+  "hint": "You combine 'checkout' with '-b' and the branch name.",
+  "answer": "git checkout -b feature",
+  "answertype": "exact",
+  "honorreward": 25,
+  "bonusfirsttry": 5
+}

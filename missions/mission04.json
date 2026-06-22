@@ -1,0 +1,17 @@
+{
+  "id": "python_functions",
+  "number": 4,
+  "title": "Functions & 'Jeet Kune Do' Logic",
+  "skill": "python",
+  "outliertag": "Python",
+  "philosophy": "Bruce Lee's Jeet Kune Do emphasizes 'maximum efficiency with minimum effort.' Functions embody this: write once, strike (execute) infinitely.",
+  "economics": "A function is a social contract or a specialized factory. It takes raw materials (inputs/arguments), processes them through labor (logic), and outputs a finished good.",
+  "techconcept": "Functions are defined using the 'def' keyword. They bundle reusable logic under a single name and can take parameters and return values.",
+  "lesson": "Instead of repeating the same code many times, you define a function once and call it whenever you need that behavior. Clear function names and small focused bodies make your programs easier to test, debug, and extend.",
+  "challenge": "What keyword is used to define a function in Python?",
+  "hint": "Think of the first word you type before the function name.",
+  "answer": "def",
+  "answertype": "contains",
+  "honorreward": 20,
+  "bonusfirsttry": 5
+}

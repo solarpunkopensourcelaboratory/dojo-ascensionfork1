@@ -1,0 +1,17 @@
+{
+  "id": "python_file_io",
+  "number": 8,
+  "title": "File I/O — Institutional Memory",
+  "skill": "python",
+  "outliertag": "Python",
+  "philosophy": "The Bushido code values legacy. Without memory, a society cannot learn. Writing data to a file ensures that your digital actions echo into the future, much like Estonia's resilient national data registry.",
+  "economics": "Capital accumulation requires storage. If a program loses all its data when it closes, it cannot generate generational wealth. File I/O is the banking system of our program.",
+  "techconcept": "Python uses `open('file.txt', 'w')` to write to a file, and the 'with' keyword ensures the file is safely closed when we are done.",
+  "lesson": "File I/O lets your programs remember what happened between runs. Using 'with' is like using a safe contract: resources are opened, used, and automatically released even if something goes wrong.",
+  "challenge": "What Python keyword is used to open a file and ensure it closes automatically?",
+  "hint": "It starts the context manager block before calling open().",
+  "answer": "with",
+  "answertype": "contains",
+  "honorreward": 20,
+  "bonusfirsttry": 5
+}

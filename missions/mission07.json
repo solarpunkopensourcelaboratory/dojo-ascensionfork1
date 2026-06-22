@@ -1,0 +1,17 @@
+{
+  "id": "apis_http",
+  "number": 7,
+  "title": "APIs & HTTP — The Digital Journalist",
+  "skill": "architecture",
+  "outliertag": "Architecture",
+  "philosophy": "Investigative journalism relies on primary sources. To hold systems accountable, we cannot wait to be spoon-fed data; we must query the source directly. APIs are the Freedom of Information Act of the digital world.",
+  "economics": "Information asymmetry causes market failure. Open APIs democratize data, allowing independent actors to build tools that correct corporate or governmental monopolies on knowledge.",
+  "techconcept": "An API (Application Programming Interface) allows two programs to talk to each other. In Python, we often use the 'requests' library to make HTTP calls and retrieve JSON data from web services.",
+  "lesson": "Instead of scraping web pages meant for humans, APIs return structured data meant for machines. This makes it easier to build dashboards, automations, and accountability tools that reveal how systems actually behave.",
+  "challenge": "What standard Python library is used to make HTTP requests to web APIs?",
+  "hint": "It starts with 'r' and ends with 's'.",
+  "answer": "requests",
+  "answertype": "contains",
+  "honorreward": 25,
+  "bonusfirsttry": 5
+}

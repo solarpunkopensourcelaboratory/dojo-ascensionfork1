@@ -1,0 +1,17 @@
+{
+  "id": "git_system_grounding",
+  "number": 1,
+  "title": "System Grounding",
+  "skill": "git",
+  "outliertag": "Git",
+  "philosophy": "Like Tai Chi, where you must feel the ground before moving, a programmer must understand their environment. 'Wu Wei' is achieved when your tools become extensions of your mind.",
+  "economics": "Infrastructure is the basis of all macro-economic stability. Before building goods, we build roads. Here, your terminal and shell are your economic infrastructure.",
+  "techconcept": "The terminal is your direct interface with the system. Git is your tool for interacting with the open-source global supply chain of ideas.",
+  "lesson": "Before you write any code, you need to know where you are and how to move. The terminal lets you navigate, inspect, and control your environment. Git uses that same terminal to connect your local work to remote repositories and collaborators.",
+  "challenge": "Type the command to clone a git repository.",
+  "hint": "The pattern is: git clone <repository-url>",
+  "answer": "git clone",
+  "answertype": "contains",
+  "honorreward": 20,
+  "bonusfirsttry": 5
+}

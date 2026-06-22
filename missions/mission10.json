@@ -1,0 +1,17 @@
+{
+  "id": "code_review_mastery",
+  "number": 10,
+  "title": "Code Review — The Gentle Art",
+  "skill": "review",
+  "outliertag": "Review",
+  "philosophy": "Brazilian Jiu-Jitsu (BJJ) translates to 'the gentle art.' When we roll with our training partners, the goal is not destruction, but mutual growth. Code review is our digital tatami mat; we test each other's code to find weaknesses before the real world does.",
+  "economics": "Quality Assurance (QA) prevents negative externalities. Reviewing code ensures that technical debt is not offloaded onto the future community or end-users.",
+  "techconcept": "On platforms like GitHub, we propose our code changes for review before they are merged into the main project.",
+  "lesson": "A good review asks: is this change correct, clear, and kind to future maintainers? Proposing changes through a review process distributes responsibility and makes systems more resilient.",
+  "challenge": "What is the two-word term for proposing a merge so peers can review your code on GitHub?",
+  "hint": "It starts with 'pull' and ends with 'request'.",
+  "answer": "pull request",
+  "answertype": "exact",
+  "honorreward": 30,
+  "bonusfirsttry": 5
+}

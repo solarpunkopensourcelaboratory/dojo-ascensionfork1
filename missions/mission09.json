@@ -1,0 +1,17 @@
+{
+  "id": "python_oop",
+  "number": 9,
+  "title": "OOP — Sociological Modeling",
+  "skill": "architecture",
+  "outliertag": "Architecture",
+  "philosophy": "Theatre teaches us that a play requires Roles (scripts/blueprints) and Actors (individuals performing the role). Object-Oriented Programming (OOP) applies sociology to code: defining community blueprints so individual actors can interact.",
+  "economics": "A Class is a franchise business model (like the concept of a cooperative bakery). An Object is the actual physical bakery in your neighborhood, instantiated from that model.",
+  "techconcept": "We use the 'class' keyword in Python to define blueprints for objects, and then instantiate objects from those blueprints.",
+  "lesson": "OOP lets you bundle state and behavior into coherent units that mirror real-world concepts. Classes model shared structure, while each object carries its own data and participates in interactions.",
+  "challenge": "What keyword do you use to define an object blueprint in Python?",
+  "hint": "It is the word that appears before the class name.",
+  "answer": "class",
+  "answertype": "contains",
+  "honorreward": 25,
+  "bonusfirsttry": 5
+}
