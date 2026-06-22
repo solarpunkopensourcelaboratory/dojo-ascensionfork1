@@ -1,0 +1,17 @@
+{
+  "id": "json_data_language",
+  "number": 3,
+  "title": "JSON — The Data Language",
+  "skill": "json",
+  "outliertag": "JSON",
+  "philosophy": "Dr. Cornel West reminds us that 'justice is what love looks like in public.' In our digital realm, interoperability is what cooperation looks like in code. JSON is that shared public language.",
+  "economics": "Global trade requires a universal currency standard. JSON acts as the fiat currency of data exchange across the web, allowing disparate systems to trade value.",
+  "techconcept": "JavaScript Object Notation (JSON) structures data in key-value pairs and arrays. It is lightweight, human-readable, and supported by almost every modern programming language.",
+  "lesson": "JSON is how APIs, config files, and many databases describe data. Keys are strings, values can be strings, numbers, booleans, arrays, or nested objects. Being fluent in JSON means you can read and shape the data that moves between systems.",
+  "challenge": "What does JSON stand for? (Type out the 3 words)",
+  "hint": "The three words all start with J, O, and N.",
+  "answer": "javascript object notation",
+  "answertype": "contains",
+  "honorreward": 20,
+  "bonusfirsttry": 5
+}
