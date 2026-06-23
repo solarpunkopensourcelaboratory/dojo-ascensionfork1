@@ -3,7 +3,7 @@
   "number": 6,
   "title": "Git — Branching & Merging",
   "skill": "git",
-  "outliertag": "Git Version Control",
+  "tag": "Git Version Control",
   "philosophy": "In Wing Chun, the exercise of Chi Sao (sticky hands) teaches practitioners to remain in sensitive physical contact with their opponent, feeling changes in pressure and deflecting force dynamically. Analogy: Git branching and merging is our technical Chi Sao. It allows multiple developers to work in parallel flows of time, sensitively merging their inputs while resolving systemic merge conflicts smoothly.",
   "economics": "In economic development, monolithic markets crash easily. Resilience requires pluralism. Analogy: Branching is our R&D sandbox. By isolating a feature branch, we allow safe experimentation without risking the stability of our primary economy (the `main` branch).",
   "techconcept": "A branch in Git is simply a lightweight, movable pointer to a specific commit. Creating a branch is fast and consumes virtually zero disk space because Git only records the new pointer, not a full duplicate copy of your files.",

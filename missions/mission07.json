@@ -3,7 +3,7 @@
   "number": 7,
   "title": "APIs & HTTP — The Digital Journalist",
   "skill": "architecture",
-  "outliertag": "Python+JSON",
+  "tag": "Python+JSON",
   "philosophy": "Investigative journalism relies on primary sources. To hold systems accountable, we cannot wait to be spoon-fed data; we must query the source directly. Analogy: APIs act as the Freedom of Information Act (FOIA) of the digital world.",
   "economics": "Information asymmetry causes market failure. Open APIs democratize data, allowing independent actors to build tools that correct corporate or governmental monopolies on knowledge.",
   "techconcept": "An API (Application Programming Interface) allows two programs to talk. In Python, we use the `requests` library to GET data from URLs over HTTP. A 200 status code means success; a 404 means not found.",

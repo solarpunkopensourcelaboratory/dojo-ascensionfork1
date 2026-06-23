@@ -19,7 +19,7 @@ FOLDER_SCHEMA_FIELDS = [
     "number",
     "title",
     "skill",
-    "outliertag",
+    "tag",
     "philosophy",
     "economics",
     "techconcept",

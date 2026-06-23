@@ -3,7 +3,7 @@
   "number": 8,
   "title": "File I/O — Institutional Memory",
   "skill": "python",
-  "outliertag": "Python+JSON",
+  "tag": "Python+JSON",
   "philosophy": "The Bushido code values legacy. Without memory, a society cannot learn or grow. Analogy: Writing data to a file ensures that your digital actions echo into the future, much like Estonia's resilient national data registry.",
   "economics": "Capital accumulation requires secure storage. If a program loses all its data when it closes, it cannot generate generational wealth. Analogy: File I/O serves as the banking system of our program.",
   "techconcept": "Python uses `open('file.txt', 'w')` to write to a file, and `'r'` to read. Using the `with` keyword creates a 'context manager'—it ensures the file is safely closed when we are done, preventing memory leaks and data corruption.",

@@ -3,7 +3,7 @@
   "number": 9,
   "title": "OOP — Sociological Modeling",
   "skill": "architecture",
-  "outliertag": "Python OOP",
+  "tag": "Python OOP",
   "philosophy": "Theatre teaches us that a play requires Roles (scripts/blueprints) and Actors (individuals performing the role). Analogy: Object-Oriented Programming (OOP) applies sociology to code: defining community blueprints so individual actors can interact.",
   "economics": "Analogy: A Class is a franchise business model (like the concept of a cooperative bakery). An Object is the actual physical bakery in your neighborhood, instantiated from that model.",
   "techconcept": "We use the `class` keyword to define blueprints. Inside a class, `__init__` is the constructor method that sets up the initial state of the object, and `self` refers to the specific actor performing the script.",

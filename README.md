@@ -107,6 +107,16 @@ python validate_missions.py
 
 It validates mission files and the mission index for missing required fields and basic schema issues.
 
+### Plain-Text Repo Bundle
+
+If you want a single text file you can share with other collaborators or AI tools, run:
+
+```bash
+python refresh_repo_bundle.py
+```
+
+This regenerates [repo_bundle.txt](repo_bundle.txt) from the current repository contents.
+
 ### Shared Workstation Tip
 
 On a shared machine, keep each participant's progress separate by setting a per-user data directory before launching the game:

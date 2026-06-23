@@ -3,7 +3,7 @@
   "number": 5,
   "title": "Git — Journalistic Integrity",
   "skill": "git",
-  "outliertag": "Git Version Control",
+  "tag": "Git Version Control",
   "philosophy": "Social justice relies on historical verifiability. Without transparent tracking of changes, systems of power can silently alter agreements. Analogy: Git is our cryptographic, immutable ledger of journalistic truth, preserving the timeline of who altered the system, when, and why.",
   "economics": "Estonia's e-governance model achieves high institutional trust because citizens can trace exactly who accesses or changes their digital records. Analogy: Git operates on a similar mathematical foundation (Merkle trees), creating a trust infrastructure where bad faith changes are structurally impossible to hide.",
   "techconcept": "Git does not track file differences; it tracks snapshots of your files. When you commit, Git records a cryptographic SHA-1 hash of your current staging area. The three stages of Git are: Working Directory (modifying files) -> Staging Area (`git add`) -> Git Repository (`git commit`).",

@@ -3,7 +3,7 @@
   "number": 1,
   "title": "System Grounding",
   "skill": "git",
-  "outliertag": "Git",
+  "tag": "Git",
   "philosophy": "Like Tai Chi, where you must feel the ground before moving, a programmer must understand their environment. 'Wu Wei' is achieved when your tools become extensions of your mind.",
   "economics": "Infrastructure is the basis of all macro-economic stability. Before building goods, we build roads. Here, your terminal and shell are your economic infrastructure.",
   "techconcept": "The terminal is your direct interface with the system. Git is your tool for interacting with the open-source global supply chain of ideas.",

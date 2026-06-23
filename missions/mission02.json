@@ -3,7 +3,7 @@
   "number": 2,
   "title": "Variables & Data Lineage",
   "skill": "python",
-  "outliertag": "Python Core",
+  "tag": "Python Core",
   "philosophy": "Genealogy teaches us that tracing lineage reveals identity. Analogy: A variable is not merely a box; it is a named node in a data lineage. Just as ancestral lineages carry traits forward in families, variables preserve and carry state across time in an execution scope.",
   "economics": "Micro-economics teaches that resources are scarce and optimization is mandatory. Memory is our system's scarcest resource. Analogy: Naming variables clearly acts as a public ledger of memory allocation, preventing 'naming inflation' (where poorly named variables clog developer cognitive capacity).",
   "techconcept": "In Python, variables are dynamically typed. When you assign `seed = 42`, Python allocates the value `42` in memory and points the name `seed` to it. The `=` operator does not mean equality (like in math); it represents assignment, setting the flow of data.",

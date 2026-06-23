@@ -3,7 +3,7 @@
   "number": 10,
   "title": "Code Review — The Gentle Art",
   "skill": "review",
-  "outliertag": "ModernTech",
+  "tag": "ModernTech",
   "philosophy": "Brazilian Jiu-Jitsu (BJJ) translates to 'the gentle art.' When we roll with our training partners, the goal is not destruction, but mutual growth. Analogy: Code review is our digital tatami mat; we test each other's code to find weaknesses before the real world does.",
   "economics": "Quality Assurance (QA) prevents negative externalities. Reviewing code ensures that technical debt is not offloaded onto the future community or end-users. It is an act of communal maintenance.",
   "techconcept": "On platforms like GitHub, we propose our code changes for review before they are merged into the main project. A good review addresses Correctness, Efficiency, Readability, and Edge Cases.",

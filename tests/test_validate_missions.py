@@ -56,7 +56,7 @@ class MissionValidationTests(unittest.TestCase):
                     "number": 2,
                     "title": "Folder Mission",
                     "skill": "python",
-                    "outliertag": "Python",
+                    "tag": "Python",
                     "philosophy": "A short philosophy note.",
                     "economics": "A short economics note.",
                     "techconcept": "A short tech note.",

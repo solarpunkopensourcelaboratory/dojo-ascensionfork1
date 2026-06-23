@@ -3,7 +3,7 @@
   "number": 4,
   "title": "Functions & 'Jeet Kune Do' Logic",
   "skill": "python",
-  "outliertag": "Python Core",
+  "tag": "Python Core",
   "philosophy": "Bruce Lee's martial art, Jeet Kune Do, champions 'the style of no style'—using only what works and discarding the rest with maximum efficiency. Analogy: A Python function encapsulates this logic. It is a precise, clean strike of logic that does exactly what is required with no wasted energy or syntactic clutter.",
   "economics": "Analogy: A function is a specialized cooperative workspace. Rather than every citizen building their own solar panels from scratch (repetitive code), the community delegates the task to a specialized workshop (a function) that takes raw materials (inputs) and yields finished utility (returns).",
   "techconcept": "Python functions are defined using the `def` keyword, followed by the function name, parentheses containing parameters, and a colon. Code blocks must be indented (PEP 8 recommends 4 spaces). The `return` keyword is vital; it passes computed results back to the caller.",

@@ -3,7 +3,7 @@
   "number": 3,
   "title": "JSON — The Data Language",
   "skill": "json",
-  "outliertag": "JSON Data",
+  "tag": "JSON Data",
   "philosophy": "Interoperability is what cooperation looks like in code. When diverse, self-determined systems must collaborate, they need a non-coercive, neutral language to exchange state. JSON represents this shared public language.",
   "economics": "Analogy: Global trade requires a frictionless transactional medium. JSON acts as a universal, lightweight currency of data exchange, allowing a Python server in Estonia to instantly trade structured information with a Javascript browser in Mexico without currency exchange fees (data translation overhead).",
   "techconcept": "JavaScript Object Notation (JSON) is a text format built on two structures: key-value pairs (`{}`) and ordered lists (`[]`). Every key must be a double-quoted string. Unlike Python, JSON uses lowercase `true`, `false`, and `null` instead of `True`, `False`, and `None`.",
