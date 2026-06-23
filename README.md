@@ -22,6 +22,39 @@ Code is not syntax—it's a framework for thinking about systems. By mastering t
 - **Hold systems accountable** (Code review, testing, documentation)
 
 ---
+Frontends and clients
+The Dojo Ascension repo defines a data and logic layer for a learning game:
+
+Missions are stored as JSON (missions.json and missions/*.json).
+
+Player progress and journal entries are stored as JSON save files.
+
+The current client is a terminal / VS Code experience written in Python.
+
+We explicitly invite other frontends (RPG, web, mobile, etc.) that:
+
+Consume the same mission schema and skill / honor model.
+
+Preserve the educational intent of each mission.
+
+Respect the project license (see LICENSE).
+
+If you are building a new frontend (for example, an RPG Maker version), open an issue to coordinate on data formats and progression so we stay interoperable.
+---
+
+*Use in fundraisers and ethical businesses*
+We explicitly welcome:
+
+Non‑profits using Dojo‑derived games in fundraisers.
+
+Ethical solarpunk businesses building commercial games or tools that teach with Dojo missions.
+
+If you distribute software that incorporates Dojo code, you must follow the GPL‑3.0 license (keep derivative code open-source, provide source to users).
+
+If you want to discuss special arrangements or dual-licensing for a specific project, open an issue or contact the maintainers.
+
+
+
 
 ## 🚀 Quick Start
 
